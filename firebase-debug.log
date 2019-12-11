@@ -1,0 +1,20 @@
+[debug] [2019-12-11T15:37:04.618Z] ----------------------------------------------------------------------
+[debug] [2019-12-11T15:37:04.621Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js open
+[debug] [2019-12-11T15:37:04.621Z] CLI Version:   7.9.0
+[debug] [2019-12-11T15:37:04.621Z] Platform:      win32
+[debug] [2019-12-11T15:37:04.621Z] Node Version:  v10.15.3
+[debug] [2019-12-11T15:37:04.622Z] Time:          Wed Dec 11 2019 21:07:04 GMT+0530 (India Standard Time)
+[debug] [2019-12-11T15:37:04.622Z] ----------------------------------------------------------------------
+[debug] [2019-12-11T15:37:04.622Z] 
+[debug] [2019-12-11T15:37:04.630Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-11T15:37:04.631Z] > authorizing via signed-in user
+[debug] [2019-12-11T15:37:04.632Z] [iam] checking project fir-crud-app-65ff4 for permissions ["firebase.projects.get"]
+[debug] [2019-12-11T15:37:04.634Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-11T15:37:04.634Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-11T15:37:08.556Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-11T15:37:08.580Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-crud-app-65ff4:testIamPermissions  
+
+[debug] [2019-12-11T15:37:11.174Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-11T15:37:11.176Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-crud-app-65ff4  
+ 
